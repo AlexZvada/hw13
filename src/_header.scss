@@ -1,0 +1,19 @@
+.header{
+    &-inner{
+        display: flex;
+        padding-bottom: 30px;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
+        margin-bottom: 200px;
+    }
+
+    &-logo{
+        flex-grow: 2;
+    }
+
+    &-nav{
+        flex-grow: 3;
+        display: flex;
+        justify-content: space-around;
+    }
+}
